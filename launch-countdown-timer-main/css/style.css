@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    font-family: "Red Had Text", sans-serif;
+}
+
+body {
+    background-color: hsl(235, 16%, 14%);
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70vh;
+
+    position: relative;
+}
+
+/* ----------------- images --------------- */
+.bg-stars {
+    height: 25vh;
+}
+
+.pattern-hills {
+    height: 35vh;
+    position: absolute;
+    bottom: -25em;
+}
+
+/* -----------------------------------------*/
+
+.main-title {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    text-align: center;
+    margin-top: -100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.countdown-container {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+
+.num-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 13px;
+    padding: 20px;
+
+    background: hsl(236, 21%, 26%);
+    border-radius: 5px;
+}
+
+.num-container p {
+    color: hsl(345, 95%, 68%);
+    font-size: 38px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.num-container span {
+    color: hsl(237, 18%, 59%);
+    text-transform: uppercase;
+
+    position: absolute;
+    bottom: -30px;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.social-media {
+    position: absolute;
+    bottom: 11em;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.social-media img {
+    margin: 15px;
+}
+
+
+
+
+
+
